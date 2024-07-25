@@ -1,0 +1,50 @@
+.sidebar-wrapper {
+  height: 100vh;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  padding-top: 100px;
+}
+
+.profile-avatar {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.profile-avatar img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #2f58fd;
+}
+
+.sidebar-wrapper button {
+  border: 0;
+}
+
+.sub-menu {
+  position: relative;
+  overflow-y: hidden;
+  transition: 0.5s;
+  padding-left: 20px;
+}
+
+.sub-menu ul {
+  position: absolute;
+}
+
+.centered-ul li {
+  margin: 2px 4px;
+  padding: 6px 20px 10px;
+  color: rgb(2, 38, 247);
+  font-size: 1rem;
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+}
+
+.centered-ul li:hover {
+  background: rgb(0 0 0 / 30%);
+  border-radius: 6px;
+}

@@ -1,0 +1,68 @@
+.cetagory-todo-wraper {
+  margin: 50px 0;
+}
+.admin-layout {
+  overflow-x: hidden;
+}
+
+.cetagory-todo-wraper input {
+  width: 100%;
+  padding: 3px 9px;
+  outline: none;
+  margin: 20px 0;
+  border: none;
+}
+
+.category-todo-box {
+  width: 700px;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 6px;
+  padding: 10px 14px;
+}
+
+.cetagory-todo-wraper h5 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.599);
+}
+
+.category-todo-box form {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  height: 45px;
+  border-radius: 10px;
+  padding-right: 20px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  color: black;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.todo-list-Category li {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  margin: 20px 0;
+  padding: 0 10px;
+  border-radius: 10px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.todo-list-Category li input {
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 600;
+}
+
+.todo-list-Category li i {
+  padding: 0 16px;
+}
+
+.submit-bnt-todo {
+  border: 2px solid #cccccc4d;
+  background-color: white;
+  padding: 2px 16px;
+}
